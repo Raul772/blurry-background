@@ -32,18 +32,18 @@ main{
 }
 #circle-1{
     background-image: radial-gradient(yellow 30%, transparent 60%);
-    width: 100vw;
-    height: 100vw;
+    width: max(100vw, 100vh);
+    height: max(100vw, 100vh);
 }
 #circle-2{
     background-image: radial-gradient(cyan 30%, transparent 60%);
-    width: 100vw;
-    height: 100vw;
+    width: max(100vw, 100vh);
+    height: max(100vw, 100vh);
 }
 #circle-3{
     background-image: radial-gradient( #ff6ddf 30%, transparent 60%);
-    width: 100vw;
-    height: 100vw;
+    width: max(100vw, 100vh);
+    height: max(100vw, 100vh);
 }
 
 @keyframes hue {
